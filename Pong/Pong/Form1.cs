@@ -19,6 +19,7 @@ namespace Pong
         int bally = 5; // vertical Y speed value for the ball object
         int score = 0; // score for the player
         int cpuPoint = 0; // score for the CPU
+        int testInt; // created to see if th eschange appears in GIT
 
         public Form1()
         {
