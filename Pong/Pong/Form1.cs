@@ -20,6 +20,7 @@ namespace Pong
         int score = 0; // score for the player
         int cpuPoint = 0; // score for the CPU
         int testInt; // created to see if th eschange appears in GIT
+        int testInt2; //second code change to see what happens
 
         public Form1()
         {
