@@ -28,6 +28,10 @@ namespace Pong
             InitializeComponent();
         }
 
+
+        
+
+
         private void keyisdown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Up)
@@ -138,6 +142,9 @@ namespace Pong
             {
                 // then bounce the ball in th eother direction
                 ballx = -ballx;
+
+                // play sound effect
+                Sound.PaddleSound();
             }
 
 
@@ -181,6 +188,16 @@ namespace Pong
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ball_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void player_Click(object sender, EventArgs e)
         {
 
         }

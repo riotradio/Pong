@@ -49,6 +49,7 @@ namespace Pong
             this.player.Size = new System.Drawing.Size(27, 127);
             this.player.TabIndex = 0;
             this.player.TabStop = false;
+            this.player.Click += new System.EventHandler(this.player_Click);
             // 
             // cpu
             // 
@@ -67,6 +68,7 @@ namespace Pong
             this.ball.Size = new System.Drawing.Size(27, 26);
             this.ball.TabIndex = 2;
             this.ball.TabStop = false;
+            this.ball.Click += new System.EventHandler(this.ball_Click);
             // 
             // gameTimer
             // 
