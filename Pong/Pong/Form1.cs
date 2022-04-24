@@ -67,6 +67,9 @@ namespace Pong
 
         private void timerTick(object sender, EventArgs e)
         {
+            Menu MenuScreen = new Menu();
+
+
             // this is the main timer event, this event will trigger every 20 milliseconds
 
             playerScore.Text = "" + score; // show player score on label 1
@@ -178,12 +181,19 @@ namespace Pong
             {
                 gameTimer.Stop();
                 MessageBox.Show("You win this game!");
+                this.Close();
+                MenuScreen.Show();
             }
             if (cpuPoint > 10)
             {
                 gameTimer.Stop();
                 MessageBox.Show("CPU wins, you lose!");
+                this.Close();
+                MenuScreen.Show();
             }
+            
+            
+
 
         }
 
@@ -201,5 +211,13 @@ namespace Pong
         {
 
         }
+
+        private void Form1_FormClosed(object sender, EventArgs e)
+        {
+            MessageBox.Show("Goodbye");
+            Application.Exit();
+        }
+
+        
     }
 }

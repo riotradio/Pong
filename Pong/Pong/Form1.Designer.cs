@@ -105,6 +105,7 @@ namespace Pong
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MidnightBlue;
             this.ClientSize = new System.Drawing.Size(928, 574);
+            this.ControlBox = false;
             this.Controls.Add(this.cpuLabel);
             this.Controls.Add(this.playerScore);
             this.Controls.Add(this.ball);

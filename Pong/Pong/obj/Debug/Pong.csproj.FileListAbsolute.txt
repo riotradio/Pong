@@ -18,3 +18,4 @@ C:\Users\hit-t\Pong\Pong\Pong\obj\Debug\Pong.csproj.GenerateResource.cache
 C:\Users\hit-t\Pong\Pong\Pong\obj\Debug\Pong.csproj.CoreCompileInputs.cache
 C:\Users\hit-t\Pong\Pong\Pong\obj\Debug\Pong.exe
 C:\Users\hit-t\Pong\Pong\Pong\obj\Debug\Pong.pdb
+C:\Users\hit-t\Pong\Pong\Pong\obj\Debug\Pong.Menu.resources
